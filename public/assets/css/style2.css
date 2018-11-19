@@ -1,0 +1,127 @@
+body{
+
+}
+
+.nopadding{
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo{
+
+    background: url("../img/background-edit.png") no-repeat ;
+    -moz-background-size: 80% 80%;
+    -webkit-background-size: 100% 97%;
+    position: relative;
+}
+.container{
+
+    width: 70%;
+}
+
+.main {
+
+    width: 100%;
+    height: 838px;
+
+}
+
+.menu{ height: 86px;}
+
+.menu .span1 { margin: 3px;}
+
+.menu .span6{margin-top: 30px;}
+.menu .span6 img{margin-left: 35px;}
+
+.menu .span9{margin-top: 20px;}
+
+
+.img_card{  margin-top: 20px; cursor: pointer}
+
+.logo {
+    height: 86px;
+    background-image: url("../img/logo.png") ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+.logo {
+    width: 70%;
+}
+
+.content{
+    overflow: hidden;
+    position: relative;
+}
+
+.conteudo-prod{
+    width: 100%;
+    position: relative;
+    background: red;
+    margin-left: 35px;
+    height: 700px;
+}
+.menu-tipo ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu-tipo ul li img{
+    margin-left: 20px;
+}
+
+.menu-tipo ul li{
+    list-style: none;
+    font-weight: bold;
+    height: 30px;
+}
+
+.menu-tipo ul li ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.menu-tipo span{
+    color: #e7901c;
+}
+.finalizar{
+    margin-top: 20px;
+}
+
+.finalizar p{
+    font-size: 12px;
+    font-style: italic;
+    color: yellow;
+    margin-top: -10px;
+}
+
+.finalizar small{
+    font-size: 12px;
+    font-style: italic;
+    color: yellow;
+    margin-top: -10px;
+}
+
+.carrinho .car-content{
+    width: 90px;
+    height: 90px;
+    background: #ffffff;
+    border-radius: 90px;
+    overflow: hidden;
+    border: 15px solid #cacaca;
+}
+
+.carrinho .car-content img{
+   margin: 0;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background: red;
+    position: relative;
+    bottom: 0px;
+}

@@ -1,0 +1,77 @@
+// Borders
+$laravel-border-color: rgba(12, 0, 51, 0.1);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Colors
+$white: #fefefe;
+$porcelain: #e8ecee;
+$silver: #bebebe;
+$gray: #929292;
+
+$sushi: #73b945;
+$shamrock: #36c287;
+
+$eastbay: #464d7e;
+$port: #332457;
+$astronaut: #2a3573;
+$governor: #2e3da2;
+$turquoise: #05d2ec;
+$curious_blue: #338dcd;
+
+$cerise: #e13394;
+$lavender: #aa31ca;
+$puce: #c97aa1;
+$pink: #f487b1;
+
+$orange: #f89f21;
+$confetti: #e8c558;
+$tobaco: #71553f;
+
+$crimson: #e02e44;
+$rose: #d35464;
+
+$brand-primary: $astronaut;
+$brand-info: $governor;
+$brand-success: $shamrock;
+$brand-warning: $orange;
+$brand-danger: $crimson;
+
+// Typography
+$font: 16px;
+
+// scale
+$font1: 0.75rem;   // 11px
+$font2: 0.875rem;  // 14px
+$font3: 1rem;      // 16px
+$font4: 1.125rem;  // 18px
+$font5: 1.375rem;  // 22px
+$font6: 1.5rem;    // 24px
+$font7: 1.75rem;   // 28px
+$font8: 3rem;      // 34px
+
+$font-family-sans-serif: "Myriad Pro", sans-serif;
+$font-size-base: $font3;
+$line-height-base: 1.6;
+$text-color: black;
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+// Navbar
+$navbar-default-bg: white;
+
+// Buttons
+$btn-default-color: white;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// paths
+$img-path: '../img/';

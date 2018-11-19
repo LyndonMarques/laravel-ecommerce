@@ -1,0 +1,424 @@
+// ========= //
+// BOOTSTRAP //
+// ========= //
+
+// NOT MOBILE (tablets, 992px and up)
+@include media-breakpoint-up(sm) {
+  .modal-content {
+    width: 90%;
+    left: 5%;
+  }
+
+  .page-performance {
+    .title-indicators{
+      margin-top: 0;
+    }
+  }
+  .card-body{
+    .card-body-header{
+      font-size: .8rem;
+    }
+  }
+
+
+  figcaption{
+    display: block;
+    position: absolute;
+    bottom: inherit !important;
+    text-align: center !important;
+    line-height: 1.5 !important;
+    white-space: normal;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 30px 5px !important;
+    background-color: inherit !important;
+    width: 673px !important;
+    left: 0 !important;
+    right: 0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #baguetteBox-overlay .full-image img{
+    width: 673px !important;
+    height: 410px !important;
+    box-shadow: 7px 37px 38px rgba(22, 7, 5, 0.8);
+    border: 5px solid #ffffff;
+  }
+
+  .baguetteBox-button{
+    &#close-button{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      margin: auto;
+      top: 0 !important;
+      left: 668px;
+      bottom: 420px;
+      right: 0 !important;
+      background: #ffffff;
+      border-radius: 30px;
+      padding: 20px;
+    }
+
+    svg {
+      position: absolute;
+      left: 5px;
+      top: 6px;
+    }
+  }
+
+  #baguetteBox-overlay{
+    background-color: #222 !important;
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    -webkit-transition: opacity .5s ease !important;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {
+  .side-menu {
+    ul.nav {
+      margin-top: 0px;
+      li a {
+        font-size: $font4;
+      }
+    }
+  }
+
+  .block-mission {
+    background-position: top center;
+  }
+
+  .block-next-mission {
+    padding: 25px 0px;
+    .block-time {
+      p {
+        strong {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+
+  .page .main-content {
+    padding-top: 40px;
+  }
+
+  .card-distributor p {
+    font-size: $font2;
+  }
+
+  .page-home {
+    .indicator-dashboard {
+      h4 {
+        font-size: 40px;
+      }
+      &.indicator-dashboard-ranking {
+        h2 {
+          font-size: 70px;
+        }
+        span {
+          font-size: $font5;
+        }
+      }
+    }
+    .ranking-home {
+      .distributors {
+        max-width: 580px;
+        margin: auto;
+      }
+      .ranking-item {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+  .page .wrapper {
+    padding-top: 65px;
+  }
+
+  .block-mission {
+    text-align: center;
+  }
+
+  .block-next-mission {
+    padding: 25px 0px;
+  }
+
+  /*Page login*/
+  .box-login {
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    background-size: 100% 100%;
+    background-position: center top;
+  }
+
+  .page-home .ranking-home .ranking-item {
+    margin-bottom: 15px;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+  .block-mission {
+    margin-bottom: 30px;
+  }
+
+  .card-distributor {
+    margin-bottom: 30px;
+    strong {
+      font-size: $font6;
+    }
+  }
+
+  .tabs-featured {
+    .card-body {
+      &.card-body-manager {
+        strong {
+          font-size: 44px;
+        }
+      }
+    }
+  }
+
+  /*Page mecanica*/
+  .content-mecanica {
+    .slick-list {
+      div {
+        .item{
+          padding: 0 !important;
+        }
+      }
+    }
+  }
+
+  /*Page fale-conosco*/
+  .page-contact {
+    .main-content {
+      padding-top: 90px;
+    }
+
+    .wrapper{
+      background-position: inherit;
+    }
+  }
+
+  /*Page login*/
+  .box-login {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    background-size: 100% 100%;
+    background-position: center top;
+  }
+
+  .page-login{
+    background-size: inherit;
+  }
+
+  /*Page premio*/
+  #baguetteBox-figcaption-0{
+    display: none !important;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+  .tabs-featured {
+
+    .card-body {
+
+      &.card-body-manager {
+        strong {
+          display: block;
+          line-height: 1em;
+          font-size: 32px;
+          text-transform: uppercase;
+        }
+        img{
+          margin-right: 0;
+        }
+        p{
+          padding-top: 0;
+        }
+      }
+    }
+
+    // sizes //
+    &.tabs-small {
+      .tabs-content {
+        max-height: 161px;
+      }
+    }
+    &.tabs-medium {
+      .tabs-content {
+        max-height: 180px;
+      }
+    }
+    &.tabs-big {
+      .tabs-content {
+        max-height: 240px;
+      }
+    }
+
+    // styles //
+    &.tabs-featured-inline {
+      .card {
+        overflow: hidden;
+      }
+      .button-plus {
+        float: right;
+        margin-top: -2px;
+      }
+      .card-body {
+        strong {
+          padding-left: 8px;
+          margin-top: 2px;
+          display: inline-block;
+        }
+        p {
+          padding-right: 8px;
+          margin-top: 2px;
+          margin-bottom: 0px;
+        }
+        .row:nth-child(even) {
+          background-color: #dfdfdf;
+        }
+      }
+    }
+
+  }
+
+  .block-next-mission{
+    .block-time{
+      p{
+        strong{
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  .modal-content{
+    width: 92%;
+    left: 3%;
+  }
+
+  .page-performance {
+    .title-indicators{
+      margin-top: 0;
+    }
+  }
+
+  .card-body{
+    .card-body-header{
+      font-size: .8rem;
+    }
+  }
+
+  /*Page ranking*/
+  .ranking-table {
+    .ranking-header{
+      padding-left: 25px;
+      background-position: -100px center !important;
+    }
+
+    .table{
+      padding-right: 0;
+      p{
+        padding: 9px 20px;
+        strong{
+
+        }
+        span{
+          padding: 20px;
+        }
+
+      }
+    }
+  }
+
+  /*Page mecanica*/
+  .content-mecanica {
+
+    .slick-dotted{
+      &.slick-slider{
+        margin-bottom: 0px;
+      }
+    }
+    .slick-list {
+      div {
+        .item{
+          padding: 7px !important;
+        }
+      }
+    }
+    .slick-dots{
+      margin-top: 20px;
+      bottom: -45px;
+      li{
+        margin: 0;
+      }
+    }
+  }
+
+  /*Page login*/
+  .box-login {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background-size: 100% 100%;
+    background-position: center top;
+  }
+}
+
+
+// ========== //
+// RESPONSIVE //
+// ========== //
+
+// SMALL SMARTPHONE
+@media only screen and (max-width : 320px) {
+
+}
+
+// MEDIUM SMARTPHONE
+@media only screen and (max-width : 374px) {
+
+}
+
+// LARGE SMARTPHONE
+@media only screen and (min-width : 375px) and (max-width : 576px) {
+
+}
+
+
+// FIX FOR 1366x768 RESOLUTIONS
+@media only screen and (min-width : 993px )and (max-width : 1366px) and (min-height : 540px) and (max-height: 768px) {
+  .side-menu {
+    .card {
+      padding: 15px;
+      img {
+        height: 140px;
+      }
+    }
+    ul.nav {
+      margin-top: 0px;
+      li a {
+        font-size: $font4;
+      }
+    }
+  }
+}

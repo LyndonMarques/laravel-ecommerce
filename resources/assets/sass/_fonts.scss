@@ -1,0 +1,71 @@
+@include font-face(
+  "Myriad Pro Condensed",
+  "../fonts/MyriadPro-CondIt",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: italic;
+  font-weight: 400;
+}
+
+@include font-face(
+  "Myriad Pro Condensed",
+  "../fonts/MyriadPro-BoldCond",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 700;
+}
+
+@include font-face(
+  "Myriad Pro Condensed",
+  "../fonts/MyriadPro-BoldCondIt",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: italic;
+  font-weight: 700;
+}
+
+@include font-face(
+  "Myriad Pro",
+  "../fonts/MyriadPro-Light",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 300;
+}
+
+@include font-face(
+  "Myriad Pro",
+  "../fonts/MyriadPro-Regular",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 400;
+}
+
+@include font-face(
+  "Myriad Pro",
+  "../fonts/MyriadPro-Semibold",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 600;
+}
+
+@include font-face(
+  "Myriad Pro",
+  "../fonts/MyriadPro-SemiboldIt",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: italic;
+  font-weight: 600;
+}
+
+@include font-face(
+  "Myriad Pro",
+  "../fonts/MyriadPro-Bold",
+  ("ttf", "eot", "woff2", "woff")
+) {
+  font-style: normal;
+  font-weight: 700;
+}
